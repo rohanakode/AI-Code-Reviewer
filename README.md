@@ -48,30 +48,6 @@ Render (Manual setup: Backend Web Service + Frontend Static Site)
 
 Vercel (Frontend Static Site + Backend Serverless Functions)
 
-Project Structure
-
-.
-├── backend/         # Node.js/Express server
-│   ├── node_modules/
-│   ├── .env         # Store API keys and config (ignored by Git)
-│   ├── .gitignore
-│   ├── package.json
-│   ├── server.js    # Express application logic
-│   └── ...
-├── frontend/        # React application
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.js   # Main application component
-│   │   └── ...
-│   ├── .env         # Store backend URL (ignored by Git)
-│   ├── .gitignore
-│   └── package.json
-├── .gitignore       # Root gitignore
-└── README.md        # This file
-
-
-
 Setup and Installation
 
 Prerequisites:
